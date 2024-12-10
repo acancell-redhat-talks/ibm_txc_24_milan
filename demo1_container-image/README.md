@@ -28,7 +28,7 @@ Open with a text editor the file named `Containerfile` and check its content.
 ### Build the image on the remote machine
 
 1. Go to _Podman Desktop_ > _Images_ > _Build_
-2. Insert the following parameters:
+2. Set the following parameters:
     - Containerfile path: `/home/acancell/ibm_txc_24_milan/demo1_container-image/Containerfile`
     - Build context directory: `/home/acancell/ibm_txc_24_milan/demo1_container-image`
     - Image name: `quay.io/acancell-redhat-talks/ibm_txc_24_milan/demo-container`
