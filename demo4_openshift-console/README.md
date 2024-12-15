@@ -8,8 +8,8 @@
 
 ### Check Cluster observability
 
-- Go to _Observe_ > _Dashboard_ and check `API Performance` and `etcd` dashboards
-- Go to _Observe_ > _Alerting_ and check currently active alerts
+1. Go to _Observe_ > _Dashboard_ and check `API Performance` and `etcd` dashboards
+2. Go to _Observe_ > _Alerting_ and check currently active alerts
 
 ### Check the API objects within `demo-project` 
 
@@ -28,4 +28,4 @@
 3. Click on tab `Administrator` and switch to `Developer`
 4. Review the application `Topology`
 5. Go to `frontend` and click on _Open URL_
-6. Go to `frontend` > _Edit Pod count_ and move from `2` to `3`, then wait for scaling to complete
+6. Go to `frontend` > _Edit Pod count_ and move from `2` to `3`, then wait for the scaling to complete

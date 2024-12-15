@@ -5,16 +5,16 @@
 3. Select the container `demo-container`
 4. Go to _Action_ > _Deploy to Kubernetes_
 5. Set the following parameters:
-    - Pod Name: `demo-pod`
+    - _Pod Name_: `demo-pod`
 6. Review the generated YAML file
 
 ### Deploy the Pod on a Kubernetes cluster
 
 1. From the same window of previous paragraph, set the following parameters:
-    - Kubernetes Context: (the desired Kubernetes cluster, in the format `PROJECT/api-HOSTNAME:6443/USER`)
-    - Kubernetes Namespace: (the desired Kubernetes namespace, for example `demo-project`)
+    - _Kubernetes Context_: (the desired Kubernetes cluster, in the format `PROJECT/api-HOSTNAME:6443/USER`)
+    - _Kubernetes Namespace_: (the desired Kubernetes namespace, for example `demo-project`)
 2. Click on _Deploy_
-3. After the Pod is reported as _running_, click on _Done
+3. After the Pod is reported as _running_, click on _Done_
 
 ### Check the Pod status
 

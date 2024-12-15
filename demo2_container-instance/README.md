@@ -4,10 +4,10 @@
 2. Select image `quay.io/acancell-redhat-talks/ibm_txc_24_milan/demo-container`
 3. Click on _Play Image_
 4. Set the following parameters in the _Basic_ tab:
-    - Container name: `demo-container`
-    - Port mapping: 
-        - Host port: `8080`
-        - Container port: `8000`
+    - _Container name_: `demo-container`
+    - _Port mapping_: 
+        - _Host port_: `8080`
+        - _Container port_: `8000`
 5. Click on _Start Container_
 
 ### Check the container instance
@@ -28,9 +28,8 @@
 ps -ax | grep 'http.server'
 ~~~
 6. Note how `http.server` has PID equals to `1`
-7. Open a shell on the host machine
-8. on the host machine shell, run again the command:
+7. Open a shell on the host machine and run again the command:
 ~~~
 ps -ax | grep 'http.server'
 ~~~
-9. Note how `http.server` has a different PID
+8. Note how `http.server` has a different PID
